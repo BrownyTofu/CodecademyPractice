@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API Practice</title>
+    <link rel="stylesheet" href="./public/style.css">
+    <script async type="module" src="./public/main.js"></script>
+</head>
+<body>
+    <div class="datamuse">
+        <h1>datamuse</h1>
+        <form action="">
+            <label for="datamuse_input">Please Enter A Word to get words which spell like it:</label>
+            <input id="datamuse_input" type="text" list="example_words" required>
+            <datalist id="example_words" >
+                <option value="hook"></option>
+                <option value="bread"></option>
+            </datalist>
+            <br>
+            <label for="result_numbers">How much words?</label>
+            <input id="result_numbers" type="number" max="100" min="1" value="5" required>
+            <br>
+            <button id="datamuse_button">Get Homonym</button>
+        </form>
+        <p>Your word is:</p>
+        <ol id="list">
+        </ol>
+    </div>
+    <hr>
+    <div class="rebrandly">
+        <h1>Rebrandly</h1>
+        <form action="" method="POST">
+            <label for="rebrandly_input">Please Enter A URL to shorten:</label>
+            <br>
+            <input id="rebrandly_input" type="text" required>
+            <button id="rebrandly_button">Shorten URL</button>
+        </form>
+        <p>Shorten URL:</p>
+    </div>
+    <hr>
+    <div class="TMDB">
+        <h1>TMDB</h1>
+        <p>Not done yet.</p>
+    </div>
+    
+</body>
+</html>
