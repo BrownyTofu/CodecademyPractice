@@ -1,4 +1,4 @@
-# This is a practice project for fetch API
+# This is a pratice project for fetch API
 (Learned from [Codecademy](http://www.codecademy.com/)).
 
 ---

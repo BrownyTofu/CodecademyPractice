@@ -22,7 +22,7 @@ const getSuggestions = async () => {
     const response = await fetch(endpoint, {cache: 'no-cache'});
     if(response.ok){
       const jsonResponse = await response.json();
-      renderWordResponse(jsonResponse);
+      renderDataMuseResponse(jsonResponse);
     }
   } catch (error) {
     console.log(error);
